@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test</title>
+  <title>Slaask HTML Sample</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
 <body>
-  <script type="text/javascript" src="/api/chat.js?key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"></script>
+  <script src='https://cdn.slaask.com/chat.js'></script>
   <script>
-    _chattr.identify('UserFirstName', {
-      user_id: 1234,
-      email: 'firstname@website.com',
-      plan: 'UserPlan'
-    });
-    _chattr.init();
+      _slaask.identify('YourUserName', {
+          user_id: 1234,
+          email: 'firstname@company.com',
+          plan: 'UserPlan'
+      });
+      _slaask.init('6e32de720b47555bdc81696b3fa955b1');
   </script>
 </body>
 </html>
